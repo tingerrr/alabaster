@@ -1,0 +1,16 @@
+[package]
+name = "alabaster"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = { version = "1.0.80", features = ["backtrace"] }
+clap = { version = "4.5.1", features = ["derive"] }
+ignore = "0.4.22"
+pathdiff = "0.2.1"
+same-file = "1.0.6"
+serde = { version = "1.0.196", features = ["derive"] }
+toml = "0.8.11"
+typst-project = { git = "https://github.com/tingerrr/typst-project", rev = "a71db5451ebdca2174adc0a323c71ba5ab2f8120" }
